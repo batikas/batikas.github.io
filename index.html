@@ -1,0 +1,1748 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.3.0 for Hugo" />
+  
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Michail Batikas" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Professor of Information Systems" />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://wwww.batikas.io/" />
+
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+      
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.c4d4d0fe4a8128c673e97327869a0f76.css" />
+
+  
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-28074878-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-28074878-1', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  
+
+  
+    <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Michail Batikas" />
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://wwww.batikas.io/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="Michail Batikas" />
+  <meta property="og:url" content="https://wwww.batikas.io/" />
+  <meta property="og:title" content="Michail Batikas" />
+  <meta property="og:description" content="Professor of Information Systems" /><meta property="og:image" content="https://wwww.batikas.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://wwww.batikas.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta property="og:updated_time" content="2030-06-01T13:00:00&#43;00:00" />
+    
+  
+
+  
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://wwww.batikas.io/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "url": "https://wwww.batikas.io/"
+}
+</script>
+
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Michail Batikas</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper   "  >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.8988fb2a4bba758785868cfcb5244555.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container-xl">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Michail Batikas</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Michail Batikas</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about" data-target="#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Research</span><span class="caret"></span>
+          </a>
+          <div class="dropdown-menu">
+            
+              <a class="dropdown-item" href="/#publications" data-target="#publications"><span>Publications</span></a>
+            
+              <a class="dropdown-item" href="/#working_papers" data-target="#working_papers"><span>Working Papers</span></a>
+            
+          </div>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks" data-target="#talks"><span>Presentations</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#teaching" data-target="#teaching"><span>Teaching</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+            
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="https://www.dropbox.com/s/ac2rm7b1vb56o94/CV_Batikas_Oct21.pdf?dl=0" target="_blank" rel="noopener"><span>CV</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+<span class="js-widget-page d-none"></span>
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="about" class="home-section wg-about  "  >
+   <div class="home-section-bg " >
+     
+   </div>
+    <div class="container">
+
+    
+
+      
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4">
+    <div id="profile">
+
+      
+      
+      <img class="avatar avatar-square"
+           width="270" height="270"
+           src="/authors/admin/avatar_hu27a35374fbcb5d01419297df06472c96_6448309_270x270_fill_q75_lanczos_center.jpg" alt="Michail Batikas">
+      
+
+      <div class="portrait-title">
+        <h2>Michail Batikas</h2>
+        <h3>Professor of Information Systems</h3>
+
+        
+        <h3>
+          <a href="https://www.rennes-sb.com" target="_blank" rel="noopener">
+          <span>Rennes School of Business</span>
+          </a>
+        </h3>
+        
+      </div>
+
+      <ul class="network-icon" aria-hidden="true">
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+        <li>
+          <a href="mailto:michail.batikas@rennes-sb.com"  aria-label="envelope">
+            <i class="fas fa-envelope big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://twitter.com/mbatikas" target="_blank" rel="noopener" aria-label="twitter">
+            <i class="fab fa-twitter big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://scholar.google.com/citations?hl=en&amp;user=h7WxZzMAAAAJ" target="_blank" rel="noopener" aria-label="google-scholar">
+            <i class="ai ai-google-scholar big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2673081" target="_blank" rel="noopener" aria-label="ssrn">
+            <i class="ai ai-ssrn big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://github.com/batikas" target="_blank" rel="noopener" aria-label="github">
+            <i class="fab fa-github big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://www.dropbox.com/s/ac2rm7b1vb56o94/CV_Batikas_Oct21.pdf?dl=0" target="_blank" rel="noopener" aria-label="cv">
+            <i class="ai ai-cv big-icon"></i>
+          </a>
+        </li>
+        
+      </ul>
+
+    </div>
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+    
+
+    <div class="article-style">
+      <p>I am Asistant Professor of Information Systems at Rennes School of Business. My work lies at the intersection of Information Systems, Strategy and Applied Industrial Organization and has been published in the Marketing Science (forthcoming), International Journal of Industrial Organization and various Management and Information Systems conferences. My research interests include the impact of regulation on the digital economy, as well as the strategic reactions of firms in platform markets. After getting my PhD, and before rejoining academia, I worked at the Joint Research Center of the European Commission as a Scientific Officer.</p>
+<!---
+
+  <i class="fas fa-download  pr-1 fa-fw"></i> Download my <a href="/uploads/demo_resume.pdf" target="_blank">resumé</a>.
+-->
+
+    </div>
+
+    <div class="row">
+
+      
+      <div class="col-md-5">
+        <div class="section-subheading">Interests</div>
+        <ul class="ul-interests mb-0">
+          
+          <li>Economics of Information Systems</li>
+          
+          <li>Privacy</li>
+          
+          <li>Platform Markets</li>
+          
+        </ul>
+      </div>
+      
+
+      
+      <div class="col-md-7">
+        <div class="section-subheading">Education</div>
+        <ul class="ul-edu fa-ul mb-0">
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">PhD in Information Systems, 2011</p>
+              <p class="institution">Universitat Pompeu Fabra</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">Master in Business Administration, 2005</p>
+              <p class="institution">Athens University of Economics and Business</p>
+            </div>
+          </li>
+          
+          <li>
+            <i class="fa-li fas fa-graduation-cap"></i>
+            <div class="description">
+              <p class="course">BSc in Computer Science, 2003</p>
+              <p class="institution">University of Crete</p>
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+      
+
+    </div>
+  </div>
+</div>
+
+
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="publications" class="home-section wg-pages  "  >
+   <div class="home-section-bg " >
+     
+   </div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+            <h1 class="mb-0">Publications</h1>
+            <p class="mt-1">Journal</p>
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+<div class="col-12 col-lg-8">
+
+  <p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3560392" target="_blank" rel="noopener">Regulatory Spillovers and Data Governance: Evidence from the GDPR</a> (Previously circulated as: European Privacy Law and Global Markets for Data)<br>
+(with C Peukert, S Bechtold and T Kretschmer)<br>
+<strong>Marketing Science</strong> Forthcoming<br>
+Media Coverage: <a href="https://voxeu.org/article/how-gdpr-affects-global-markets-data" target="_blank" rel="noopener">VoxEU</a>, <a href="https://www.oekonomenstimme.org/artikel/2020/10/regulatorischer-export--wie-die-europaeische-datenschutzgrundverordnung-globale-datenmaerkte-beeinflusst/" target="_blank" rel="noopener">Ökonomenstimme</a></p>
+<p><a href="https://www.sciencedirect.com/science/article/pii/S0167718719300086" target="_blank" rel="noopener">Follow the Money: Online Piracy and Self-Regulation in the Advertising Industry</a><br>
+(with J Claussen and  C Peukert)<br>
+<strong>International Journal of Industrial Organization</strong> Volume 65, July 2019, Pages 121-151<br>
+Media Coverage: <a href="https://torrentfreak.com/eu-anti-piracy-agreement-has-little-effect-on-advertising-research-finds-180204/" target="_blank" rel="noopener">TorrentFreak</a></p>
+
+
+  
+
+  
+  
+  
+
+</div>
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="working_papers" class="home-section wg-pages  "  >
+   <div class="home-section-bg " >
+     
+   </div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+            <h1 class="mb-0">Working Papers</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+<div class="col-12 col-lg-8">
+
+  <p>The hidden costs of platform flexibility: Entry of low-quality suppliers on Airbnb in high-demand periods
+<br />
+<em>(with C Cennamo, J Claussen and T Meyer)</em></p>
+<details><summary>Abstract</summary>
+Platform markets promise to be much more flexible than traditional markets when it comes to satisfying increasing demand through increased capacity. In our empirical context of entry on Airbnb, we find that increasing demand is indeed leading to more entry of Airbnb hosts as compared to supply of hotel rooms. While hosts that enter Airbnb during high-demand periods are more successful in the short run as compared to hosts that enter in low-demand periods, we find the exact opposite relationship for long run success. The lower long run success of entrants from high-demand periods is driven by lower attractiveness and lower efforts of these hosts. We furthermore find that guests who stay with entrants from high-demand periods are more likely to exit Airbnb, especially if they are relatively new to the platform. So, while platform markets can react flexibly to market demand, this comes at the cost of attracting lower quality suppliers.
+</details>
+<p>Impact of Privacy Regulation on Experimentation and Innovation
+<br />
+<em>(with Y Liu, M Miric and H Ozalp)</em></p>
+<details><summary>Abstract</summary>
+As digital experimentation via A/B testing enables entrepreneurs to make data-driven decisions based on the experiment results, the quantity, the richness, and the quality of the data a firm can collect from its experiments directly affects its A/B testing effectiveness (Azevedo et al., 2020). In May 2018, the General Data Protection Regulation (GDPR) was rolled out, which is an EU privacy regulation that among other things defines personal data and regulates the collection and processing of them (Peukert et al., 2020). By complying with this new privacy regulation, digital firms have higher costs of collecting and processing personal data, which might affect the effectiveness of A/B testing. In this study, we evaluate how privacy regulation affects the innovation of digital firms using digital experimentation.
+</details>
+<p><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3238141" target="_blank" rel="noopener">Entrepreneurs on the Darknet: Reaction to Negative Feedback</a>
+<br />
+<em>(with T Kretschmer)</em></p>
+<details><summary>Abstract</summary>
+Reputation is one of the key assets of a digital entrepreneur in markets for experience goods, especially in settings like Darknet and anonymous marketplaces. But what happens if this asset is diminished by a shock, i.e. negative feedback? We study how entrepreneurs on anonymous marketplaces respond to negative feedback by adjusting their product portfolio, or even exiting the market altogether. We find that the entrepreneurs are more likely to exit following negative feedback, but that a entrepreneur’s accumulated transactions experience on the market platform negatively moderates this. Interestingly, the entrepreneurs that do remain tend to expand their product portfolio. This effect, however, is again driven by entrepreneurs with relative high transactions experience, i.e. those with a high prior transactions volume. These results suggest that the reputation and the transactions experience of an entrepreneur interact in intricate ways to drive an entrepreneur’s choice of remaining in the market or adjusting her portfolio. We derive managerial and policy implications of these results.
+</details>
+<p>The Lives of Others: Impact of Formal and Informal Monitoring of the Short-term Rental Market in Barcelona
+<br />
+<em>(with J Claussen and T Kretschmer)</em></p>
+<details><summary>Abstract</summary>
+The explosive growth of the sharing economy platforms (like Airbnb, Uber, etc) has heated the debate around the positive and negative ex- ternalities of these platforms. The positive externalities include the decrease of transactions and information costs, the better coordina- tion of supply and demand and the flexibility for users among others. On the hand, the negative externalities include precarious working conditions, traffic jam congestions, etc. Specifically, for the case of short-term rental platforms, citizens of highly touristic cities are heav- ily complaining about the increase of the long-term rental prices, the decrease of their quality of living (due to noise for example) and the gentrification that changes the nature of their neighbourhoods. Cities like Amsterdam, Paris, Berlin, and Barcelona have taken measures in order to minimise the network externalities of the short-term rental platforms. These measures include restrictions on the total amount of days an apartment can be rented during a year in the short-term rental market, or banning totally the offering of whole apartments. In the case of Barcelona, a special license since 2012 is needed to offer a whole apartment on a short-term rental platform like Airbnb. In July 2015, the newly elected local government led by an ex-activist against evictions, imposed a moratorium on the licenses, prohibiting the is- suing of new licenses for all tourist accommodation establishments so as to study, and in addition control, the growth of the short-term rental market. The moratorium was in force until March 2017 when a new regulation was introduced. The 2015 moratorium on licenses was accompanied with an enforcement mechanism, that included specific fines for the ones that rented their apartments illegally, the creation of a team of inspectors that are monitoring the illegal tourist accommo- dation activities and the implementation of a webpage through which Barcelonas citizens and visitors could report an illegally rented apart- ment. In this study, we try to measure the impact and effectiveness of those two monitoring processes, the formal one and the informal (crowdsourced) one. By implementing a diff-in-diff analysis, we first find a general negative impact of the moratorium on the supply of apartments in the Airbnb platform. Additionally, we find that the formal monitoring process affected mostly the professional hosts while the informal monitoring affected mostly the amateur ones.
+</details>
+
+  
+
+  
+  
+  
+
+</div>
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="talks" class="home-section wg-pages  "  >
+   <div class="home-section-bg " >
+     
+   </div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+            <h1 class="mb-0">Presentations</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+<div class="col-12 col-lg-8">
+
+  <ul>
+<li>2021 Conference on Digital Experimentation @ MIT (CODE@MIT), November 2021 (“Impact of Privacy on Experimentation and Innovation”)</li>
+<li>Seventeenth Symposium on Statistical Challenges in Electronic Commerce Research (SCECR 2021), June 2021 (“Impact of Privacy on Experimentation and Innovation”)</li>
+<li>19th ZEW Conference on the Economics of Information and Communication Technologies, June 2021 (“European Privacy Law and Global Markets for Data”)</li>
+<li>Paris Conference on Digital Economics, April 2021 (“European Privacy Law and Global Markets for Data”)</li>
+<li>Brown-Bag Seminar, IESE Business School, April 2021 (“European Privacy Law and Global Markets for Data”)</li>
+<li>Digital Economics Paris, Paris Local Seminar, March 2021 (“European Privacy Law and Global Markets for Data”)</li>
+<li>Workshop on Information Systems and Economics (WISE), December 2020 (“European Privacy Law and Global Markets for Data”)</li>
+<li>Louvain Economics of Digitization Seminar, July 2020 (“European Privacy Law and Global Markets for Data”)</li>
+<li>Carlson MIS Seminar, University of Minnesota, June 2020 (“European Privacy Law and Global Markets for Data”)</li>
+<li>Sixteenth Symposium on Statistical Challenges in Electronic Commerce Research (SCECR 2020), June 2020 (“Let them choose: The effect of managing app permissions on mobile apps usage”)</li>
+<li>CREM (Centre de Recherche en Économie et Management) Seminar, Université de Rennes 1, January 2020 (“European Privacy Law and Global Markets for Data”)</li>
+<li>SKEMA Business School, February 2019 (“Entrepreneurship in Anonymous Marketplaces: Reaction to Negative Feedback”)</li>
+<li>University of the Balearic Islands, February 2019 (“Entrepreneurship in Anonymous Marketplaces: Reaction to Negative Feedback”)</li>
+<li>Rennes School of Business,  December 2018 (“Entrepreneurship in Anonymous Marketplaces: Reaction to Negative Feedback”)</li>
+<li>Annual Meeting of Academy of Management 2018 (“Entrepreneurship in Anonymous Marketplaces: Reaction to Negative Feedback”)</li>
+<li>TIME Seminar 2018 (“The Lives of Others: Impact of Formal and Informal Monitoring of the Short-term Rental Market in Barcelona”)</li>
+<li>Munich Summer Institute 2018 (“Entrepreneurship in Anonymous Marketplaces: Reaction to Negative Feedback”)</li>
+<li>AOM Specialized Conference: Big Data and Managing in a Digital Economy 2018 (“Advanced Techniques for Web-Scraping”)</li>
+<li>ORG Seminar 2018 (“The impact of demand on supplier entry: Evidence from Airbnb”)</li>
+<li>Workshop on Economic Governance of Data-driven Markets, Tilburg University 2017 (“Follow The Money: Piracy and Online Advertising”)</li>
+<li>ITS-Europe Regional Conference 2017 (“Follow The Money: Piracy and Online Advertising”)</li>
+<li>TIME Seminar 2017 (“Follow The Money: Piracy and Online Advertising”)</li>
+<li>ORG Seminar 2017 (“Follow The Money: Piracy and Online Advertising”)</li>
+<li>European Academy of Management Conference 2011 (“Participation of Catalan SMEs in FLOSS communities”)</li>
+<li>NITIM (PhD network on Networks, Information Technology and Innovation Management) 2007 (“The Ecology of FLOSS 2.0: Attractiveness from outside the “Community”)</li>
+<li>Workshop on Open Innovation, Cambridge University and MIT, 2007 (“Firms' Decision to Contribute to Free Libre Open Source Software Communities”)</li>
+<li>Doctoral Consortium of 15th European Conference on Information Systems (ECIS) 2007 (“New Business Models in FLOSS 2.0”)</li>
+<li>ITS-Europe Regional Conference 2003 (“SMS Interactive TV - The Convergence of Television and Mobile Networks”)</li>
+</ul>
+
+
+  
+
+  
+  
+  
+
+</div>
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+    
+    
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="teaching" class="home-section wg-blank  " style="padding: 20px 0 20px 0;" >
+   <div class="home-section-bg " >
+     
+   </div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+            <h1 class="mb-0">Teaching</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+  <div class="col-12 col-lg-8">
+    <ul>
+<li>Network Business Intelligence (graduate), RSB [Professor]</li>
+<li>Data Management (graduate), RSB [Professor]</li>
+<li>Database for Direct Marketing and e.CRM (graduate), RSB [Professor]</li>
+<li>Data Crawling (PhD course), LMU [Instructor]</li>
+<li>Technology and Strategy (undergraduate), LMU [T.A.]</li>
+<li>New Products: From Ideas to Markets (graduate), LMU [T.A.]</li>
+<li>Data Analytics in Strategy Research (undergraduate), LMU [Instructor]</li>
+<li>Management and Economics of Network Industries (undergraduate), LMU [T.A.]</li>
+<li>Technology Innovation (undergraduate), UPF [Instructor]</li>
+<li>Introduction to ICT (undergraduate), UPF [T.A.]</li>
+<li>Business Administration II (undergraduate), UPF [T.A.]</li>
+<li>Business Administration I (undergraduate), UPF [T.A.]</li>
+<li>Information Systems (undergraduate), Universitat Ramon Llull [Instructor]</li>
+<li>Innovation &amp; Entrepreneurship (undergraduate), Universitat Ramon Llull [Instructor]</li>
+<li>Applications Development (undergraduate), UPF [T.A.]</li>
+<li>Telecoms Policy and Markets (undergraduate), UPF [T.A.]</li>
+</ul>
+
+  </div>
+
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+
+
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+  <p class="powered-by">
+    © 2021 Me
+  </p>
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.b73dfaac3b6499dc997741748a7c3fe2.js"></script>
+
+    
+    
+    
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.d68ecd57c0ec1f1f61d65fd568f1c3a0.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>
